@@ -5,7 +5,7 @@ const Post = require("../models/post");
 
 const router = express.Router();
 
-
+// create post
 router.post("" ,(req,res,next) =>{
   const post = new Post(req.body);
   console.log(post);
