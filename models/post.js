@@ -5,5 +5,6 @@ const postSchema = mongoose.Schema({
   faculty: { type:String, required: true},
 });
 
+
 //creating a model
 module.exports = mongoose.model('Post', postSchema);
